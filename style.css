@@ -120,7 +120,7 @@ main{
   background-color: inherit;
   color: var(--Very-light-gray);
 }
-@media(max-width: 375px){
+@media screen and (max-width: 375px){
   body{
     height: 100%;
     padding: 1rem  0;
