@@ -1,2 +1,2 @@
 # layouts
-a layout design
+a pratice layout for grid and flexbox
