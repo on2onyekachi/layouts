@@ -1,7 +1,7 @@
 const message = ['Only numbers is allowed', 'Only single operator is allowed']
 //first number
 let first = prompt('type the first number');
-while(isNaN(first)){
+while(first == '' || isNaN(first)){
     alert(message[0]);
     first = prompt('type the first number');
 }
@@ -14,7 +14,7 @@ while(!(operator.length == 1 && operators.includes(operator))){
 }
 //second number
 let second = prompt('type the second number');
-while(isNaN(second)){
+while( second == '' || isNaN(second)){
     alert(message[0]);
     second = prompt('type the second number')
 }
@@ -30,6 +30,6 @@ function calculate(x, a, y){
 //     if(operator == '/') return numb / sNum;
 //     if(operator == '*') return numb * sNum;
 //     return message[1]
-// }
+// } 
 //display result
 alert(calculate(first, operator, second))
