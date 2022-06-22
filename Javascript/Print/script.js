@@ -5,7 +5,7 @@ const details = {
 }
 let data = []
 for(let detail in details){
-    alert(detail, details[detail])
+    alert(`${detail} : ${details[detail]}`)
     data.push(detail)
 }
 let output = `<p>${data[0]}: <strong>${details.name}</strong>, ${data[1]}: <strong>${details.heigth}</strong>, ${data[2]}: <strong>${details.country}</strong></p>`;
